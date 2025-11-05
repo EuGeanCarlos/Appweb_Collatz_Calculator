@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Collatz • App Rubro-Negro</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <header class="app-header">
+      <div class="app-title">Collatz Calculator</div>
+      <div class="app-subtitle">Conjectura 3n + 1 • App Rubro-Negro</div>
+    </header>
+
+    <main class="app-content">
+      <section class="card input-card">
+        <h2 class="card-title">Testar um número</h2>
+        <p>Digite um número natural para ver a sequência até chegar em <strong>1</strong>.</p>
+        
+        <div class="input-group">
+          <input id="numInput" type="number" min="1" placeholder="Ex: 6" class="number-input" />
+          <button id="runBtn" class="btn btn-primary">Calcular</button>
+        </div>
+        
+        <div class="result-area">
+          <div class="result-title">Sequência e cálculos:</div>
+          <div id="resultado" class="output">Digite um número e clique em Calcular...</div>
+        </div>
+        
+        <div class="actions">
+          <button id="copyBtn" class="btn btn-secondary">Copiar</button>
+          <button id="clearBtn" class="btn btn-secondary">Limpar</button>
+        </div>
+      </section>
+
+      <section class="card tests-card">
+        <h2 class="card-title">Testes (1 a 30)</h2>
+        <p>Sequências para os primeiros 30 números:</p>
+        <div id="testes" class="tests-container"></div>
+      </section>
+
+      <section class="card about-card">
+        <h2 class="card-title">Sobre a Conjectura de Collatz</h2>
+        <p>A conjectura afirma que, para qualquer número natural, ao aplicar repetidamente:
+          <br>- Se for par: divida por 2
+          <br>- Se for ímpar: multiplique por 3 e some 1
+          <br>O resultado sempre chegará a 1.
+        </p>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <small>Desenvolvido por <strong>Gean Carlos</strong>, <strong>Maiza Yumi</strong>, <strong>Sofia Barros</strong> • Matemática Discreta</small>
+    </footer>
+  </div>
+
+  <script src="script.js"> </script>
+</body>
+</html>
