@@ -24,7 +24,7 @@ Requer Python 3 para o servidor local. Abra http://localhost:8000.
 
 ## Demonstração e publicação
 
-Execução local. Nenhuma demonstração nova foi confirmada nesta etapa.
+[Acessar demonstração verificada](https://eugeancarlos.github.io/Appweb_Collatz_Calculator/)
 
 ## Estrutura versionada
 
@@ -110,3 +110,7 @@ Cada passo é mostrado na tela com a operação aplicada.
 ** Gean Carlos, Maiza Yumi,  Sofia Barros **  
 UEMA – Engenharia da Computação  
 📘 Disciplina: Matemática Discreta
+
+## Validação desta auditoria — 14/10/2026
+
+PUBLICADO: [workflow confirmado](https://github.com/EuGeanCarlos/Appweb_Collatz_Calculator/actions/runs/38605812982), HTTP 200, conteúdo correspondente ao projeto e 2 recursos locais verificados. No navegador publicado, entrada 6 chegou a 1 após 8 passos, com a sequência esperada.
