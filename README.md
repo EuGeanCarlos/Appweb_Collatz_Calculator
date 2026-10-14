@@ -1,3 +1,58 @@
+# Calculadora de Collatz
+
+Projeto de Matemática Discreta/UEMA para explorar a sequência 3n + 1, com cálculo passo a passo, copiar/limpar e exemplos de 1 a 30. A conjectura permanece uma conjectura matemática.
+
+## Tecnologias
+
+- HTML
+- CSS
+- JavaScript
+
+## Funcionalidades e utilização
+
+Informe 6 e clique em Calcular: 6 → 3 → 10 → 5 → 16 → 8 → 4 → 2 → 1. Autoria compartilhada com Maiza Yumi e Sofia Barros.
+
+## Como executar
+
+```bash
+git clone https://github.com/EuGeanCarlos/Appweb_Collatz_Calculator.git
+cd Appweb_Collatz_Calculator
+python -m http.server 8000 --directory "."
+```
+
+Requer Python 3 para o servidor local. Abra http://localhost:8000.
+
+## Demonstração e publicação
+
+Execução local. Nenhuma demonstração nova foi confirmada nesta etapa.
+
+## Estrutura versionada
+
+```text
+README.md
+index.html
+script.js
+style.css
+```
+
+## Status
+
+Protótipo / projeto de estudo em desenvolvimento. A descrição acima distingue o que está implementado das dependências ou etapas pendentes.
+
+## Autor e créditos
+
+**Gean Carlos** — estudante de Engenharia de Computação, UEMA.
+
+[GitHub](https://github.com/EuGeanCarlos)
+
+Licenças, autoria compartilhada e atribuições existentes no código e nos materiais originais permanecem aplicáveis.
+
+---
+
+## Documentação original e contexto
+
+O material original a seguir preserva contexto, créditos e planejamento. Para execução e limitações atuais, considere as seções de auditoria acima.
+
 # ⚙️ Conjectura de Collatz - Matemática Discreta (UEMA)
 
 Projeto desenvolvido por **Gean Carlos** para a disciplina de **Matemática Discreta** no curso de **Engenharia da Computação (UEMA)**.
